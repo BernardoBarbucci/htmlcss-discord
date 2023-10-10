@@ -25,6 +25,39 @@ body{
     justify-content: space-between;
 }
 
+.flex-j-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-j-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-j-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-w-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.font-white{
+    color: white;
+}
+
+.font-black{
+    color: black;
+}
+
+.flex-ai-center{
+    display: flex;
+    align-items: center;
+}
+
 .container{
     max-width: 1050px;
     /* width: 65 */
@@ -185,26 +218,6 @@ div.button{
     border-radius: 20px;
 }
 
-.flex-j-evenly{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.flex-j-end{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.flex-j-start{
-    display: flex;
-    justify-content: flex-start;
-}
-
-.flex-w-wrap{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .jumbo-title{
     color: white;
     font-size: 45px;
@@ -220,7 +233,6 @@ div.button{
 
 .button-mac{
     background-color: white;
-    color: black;
     height: 45px;
     font-size: 20px;
     width: 190px;
@@ -229,7 +241,6 @@ div.button{
 
 .button-browser{
     background-color: #23272a;
-    color: white;
     height: 45px;
     width: 275px;
     font-size: 20px;
