@@ -32,7 +32,7 @@ body{
 }
 
 .jumbo-container{
-    max-width: 700px;
+    max-width: 720px;
     /* width: 50% */
     margin: 0 auto;
 }
@@ -135,11 +135,10 @@ section.navigation div.login{
 
 section#jumbo{
     height: 500px;
-    padding: 0rem 0;
 }
 
 div.jumbotron{
-    height: 300px;
+    height: 170px;
     width: 700px;
 }
 
@@ -206,14 +205,35 @@ div.button{
     flex-wrap: wrap;
 }
 
-header>section#jumbo{
-    display: flex;
-    align-items: center;
-}
-
-h1{
+.jumbo-title{
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 900;
 }
+
+.jumbo-text{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.button-mac{
+    background-color: white;
+    color: black;
+    height: 45px;
+    font-size: 20px;
+    width: 190px;
+    border-radius: 15px;
+}
+
+.button-browser{
+    background-color: #23272a;
+    color: white;
+    height: 45px;
+    width: 275px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+/*fine header*/
 
