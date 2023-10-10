@@ -59,19 +59,16 @@ body{
 }
 
 .container{
-    max-width: 1050px;
-    /* width: 65 */
+    max-width: 1250px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .jumbo-container{
     max-width: 720px;
     /* width: 50% */
     margin: 0 auto;
-}
-
-.dotted-test{
-    border: 2px dashed black;
 }
 
 .columns{
@@ -83,13 +80,11 @@ body{
 }
 
 .column-big{
-    background-color: #1e8ffe;
-    width: 60%;
+    width: 65%;
 }
 
 .column-small{
-    background-color: #febfca;
-    width: 40%;
+    width: 320px;
 }
 
 .column-single{
@@ -117,10 +112,12 @@ body{
 
 .bg-white{
     background-color: white;
+    height: 575px;
 }
 
 .bg-grey{
     background-color: #d2d2d2;
+    height: 575px;
 }
 
 header{
@@ -131,10 +128,6 @@ header{
 
 section.navigation{
     padding: .8rem 0;
-}
-
-header section.navigation > div{
-
 }
 
 header section.navigation div.brand,
@@ -198,19 +191,6 @@ div.button{
 
 /*roba aggiunta da Berna*/
 
-.font-white{
-    color: white;
-}
-
-.font-black{
-    color: black;
-}
-
-.flex-ai-center{
-    display: flex;
-    align-items: center;
-}
-
 .bg-accedi{
     background-color: 	white;
     width: 4rem;
@@ -248,3 +228,12 @@ div.button{
 }
 /*fine header*/
 
+.font-title{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.font-text{
+    font-size: 20px;
+    line-height: 40px;
+}
