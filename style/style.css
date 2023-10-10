@@ -91,19 +91,17 @@ body{
 }
 
 header{
-    background-color: #acd7e5;
-    padding: 0 0 .25rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section.navigation{
     padding: .8rem 0;
-    background-color:rgb(49, 97, 224);
 }
 
-
 header section.navigation > div{
-    /* height: 40px; */
-    background-color: rgb(49, 97, 224);
+
 }
 
 header section.navigation div.brand,
@@ -111,7 +109,6 @@ header section.navigation nav,
 header section.navigation div.login{
     padding: .5rem;
 }
-
 
 section.navigation div.brand,
 section.navigation div.login{
@@ -136,16 +133,14 @@ section.navigation div.login{
     text-align: right;
 }
 
-
 section#jumbo{
-    /* height: 300px; */
-    background-color: #00008a;
-    padding: 3rem 0;
+    height: 500px;
+    padding: 0rem 0;
 }
 
 div.jumbotron{
     height: 300px;
-    background-color: #ed81ed;
+    width: 700px;
 }
 
 footer{
@@ -204,5 +199,21 @@ div.button{
 .flex-j-start{
     display: flex;
     justify-content: flex-start;
+}
+
+.flex-w-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header>section#jumbo{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
 }
 
