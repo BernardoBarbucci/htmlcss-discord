@@ -99,7 +99,7 @@ body{
 }
 
 .column-30{
-    background-color: #ef7f7f;
+    background-color: rgb(35, 39, 42);
     height: 500px;
     width: 30%;
 }
@@ -196,8 +196,6 @@ div.button{
     padding: .25rem .5rem;
 }
 
-/*roba aggiunta da Berna*/
-
 .bg-accedi{
     background-color: 	white;
     width: 4rem;
@@ -233,7 +231,6 @@ div.button{
     font-size: 20px;
     border-radius: 15px;
 }
-/*fine header*/
 
 .font-title{
     font-size: 45px;
@@ -256,4 +253,19 @@ div.button{
     font-size: 20px;
     width: 190px;
     border-radius: 15px;
+}
+
+.footer-title{
+    color: rgb(115, 139, 221);
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.footer-text{
+    color: white;
+    font-size: 20px;
+}
+
+.italia{
+    height: 20px;
 }
