@@ -285,3 +285,18 @@ ul {
 .margin-b{
     margin:0 auto 2rem;
 }
+
+.last-button-register{
+    background-color:rgb(142, 161, 225);
+    height: 35px;
+    font-size: 20px;
+    width: 130px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.ondina{
+    height: 90px;
+    background-image: url(../img/wave.svg);
+    filter: opacity(0.03);
+}
