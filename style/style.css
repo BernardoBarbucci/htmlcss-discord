@@ -93,7 +93,6 @@ body{
 }
 
 .column-70{
-    background-color: #20b1a9 ;
     width: 70%;
     height: 500px;
 }
@@ -105,7 +104,6 @@ body{
 }
 
 .column-quarters{
-    border: 2px dashed white;
     width: calc(100% / 4);
 }
 
@@ -187,7 +185,7 @@ div.footer-divider{
 }
 
 section.links{
-    padding-top: .5rem;
+    padding-top: 3.5rem;
 }
 
 div.button{
@@ -268,4 +266,22 @@ div.button{
 
 .italia{
     height: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-secondtitle{
+    color: rgb(115, 139, 221);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.line-height{
+    line-height: 35px;
+}
+
+.margin-b{
+    margin:0 auto 2rem;
 }
